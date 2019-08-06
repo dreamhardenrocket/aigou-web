@@ -26,6 +26,11 @@ Vue.use(ElementUI)
 Vue.use(VueRouter)
 Vue.use(Vuex)
 
+import VueQuillEditor  from 'vue-quill-editor'
+import 'quill/dist/quill.core.css'
+import 'quill/dist/quill.snow.css'
+import 'quill/dist/quill.bubble.css'
+Vue.use(VueQuillEditor);
 //NProgress.configure({ showSpinner: false });
 //路由对象
 const router = new VueRouter({
